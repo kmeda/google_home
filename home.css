@@ -1,0 +1,118 @@
+.navbar {
+	height: 30px; width:100%;
+	position: relative;
+	top: 5px;
+}
+
+li {
+	font-family: arial; font-size: 13px;
+	display: inline;
+}
+
+.navbar_list li {
+	float: right;
+	margin-right: 15px;
+	
+}
+
+a {
+	text-decoration: none;
+	color: #737373;
+
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.signin {
+	color: #ffffff;
+	background-color: #4882f8;
+	width: 70px; height: 30px;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	position: relative; top: -6px;
+
+
+}
+
+
+.g_image {
+
+	width: 272px; 
+	height: 92px;
+	position: absolute;
+	top: 195px;
+	left: 500px;
+}
+
+.search_bar {
+	position: absolute;
+	top: 320px;
+	left: 355px;
+
+}
+
+.search_bar input {
+	height: 35px;
+	width: 570px;	
+}
+
+.search_bar:hover {
+	border: solid 0.5px;
+	border-color: #bfbfbf;
+}
+
+.mic {
+	position: absolute;
+	top: 6px; left: 545px;
+
+}
+
+.buttons {
+	background-color: #f2f2f2;
+	color: #757575;
+	border: 1px solid #f2f2f2;
+	width: 130px; height: 36px;
+	position: relative; top: 330px; left: 460px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 2px;
+}
+
+.buttons:hover{
+	color: black; 
+	border-color: #d9d9d9;
+
+
+	
+;
+
+}
+
+.footer {
+	height: 40px; width: 100%;
+
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #d9d9d9;
+	position: fixed; right: 0;
+	bottom: 0;
+	background-color: #f2f2f2;
+}
+
+
+.left-side li {
+	float: left;
+	margin-left: 0px;
+	margin-right: 30px;
+	line-height: 0.7em;
+}
+
+.right-side li {
+	float: right;
+	margin-left: 15px;
+	margin-right: 20px;
+	line-height: 0.7em;
+}
